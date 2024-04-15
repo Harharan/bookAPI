@@ -1,4 +1,4 @@
-const express = require("express");
+/*const express = require("express");
 const router = require('./router')
 const mongoose = require("mongoose");
 
@@ -36,8 +36,8 @@ app.listen(PORT, async () => {
   console.log(`server up on port ${PORT}`);
 });
 
+*/
 
-/*
 const express = require("express");
 const router = require('./router')
 const dotenv = require("dotenv");
@@ -45,7 +45,7 @@ const cors = require("cors");
 
 const app = express();
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5001
 
 
 dotenv.config();
@@ -59,5 +59,3 @@ app.listen(PORT, async () => {
   console.log(`server up on port ${PORT}`);
 });
 
-
-*/
